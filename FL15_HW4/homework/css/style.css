@@ -1,0 +1,286 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    z-index: -1;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+.header-wrap{
+
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 800px;
+    margin: 0px;
+    padding: 0px;
+    min-width: 600px;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image:url('../img/apples.jpg');
+
+  }
+  .logo{
+    position: absolute;
+    color: #fff;
+    float: left;
+    padding-top: 17px;
+    margin: 0px 100px;
+  }
+
+  .tm-main-nav{
+      float: right;
+      margin-top: 30px;
+      margin-right: 50px;
+      word-spacing: 10px;
+  }
+  .tm-nav-item-link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-left: 24px;
+    margin-left: 20px;
+  }
+  .header_center{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 600px;
+  }
+  .header_heading{
+      font-size: 45px;
+      letter-spacing: 7px;
+      word-spacing: 10px;
+      line-height: 10%;
+
+  }
+  .header_heading span{
+    font-size: 60px;
+  }
+
+  .header_text{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-top: 0px;
+  }
+
+  .header_button button{
+      color: #fff;
+      background-color: rgba(0,0,0,.3);
+      width: 230px;
+      height: 50px;
+      border: 2px solid #fff;
+      font-size: 16px;
+
+  }
+  .header_button{
+      padding-top: 150px;
+  }
+
+  .section_text{
+      display: flex;
+      justify-content: space-between;
+      margin: 100px;
+  }
+  .section_text .text1{
+      font-size: 20px;
+      width: 30%;
+      padding: 70px 0px;
+      margin: 0px;
+      word-spacing: 2px;
+
+  }
+
+  .section_text .text1 span{
+      font-weight: bold;
+
+  }
+  .section_text .text2{
+      font-size: 15px;
+      width: 40%;
+      padding: 70px 0px;
+      margin: 0px;
+  }
+  .section_card_wrap{
+      background-color: #ebe9e9;
+
+         
+  }
+  .section_card_header{
+      margin: 0;
+      padding-top: 100px;
+      padding-bottom: 30px;
+      font-size: 30px;
+      text-align: center;
+
+  }
+  .section_card_header span{
+      font-weight: bold;
+  }
+  .section_card{
+      display: flex;
+      justify-content: space-between;
+      align-items:center;
+      margin: 20px 100px;
+      
+
+  }
+  .section_card_img{
+     width: 55%;
+     padding: 0;
+     margin: 0;
+     position: relative;     
+
+  }
+  .section_card_img .img{
+    width: 100%;
+    height: 450px;
+    padding: 0px 1px;
+    filter: brightness(80%)
+
+    
+}
+.section_card_img .signature span {
+    font-weight: bold;
+}
+
+.section_card_img .signature {
+    position: absolute;
+    color: #fff;
+    bottom: 20px;
+    left: 20px;
+    font-size: 16px
+}
+
+.section_card_img .like {
+    border: 3px solid #fff;
+    width: 50px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .3);
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.section_card .block-text {
+    width: 40%;
+}
+
+.section_card_text {
+    text-align: center;
+
+}
+
+.newsletter{
+    background-color:#fff;
+    margin: 20px 100px;
+    padding: 20px 0px 20px 0px;
+
+}
+
+.newsletter-wrapp{
+    padding: 5px 0px 30px 0px;
+}
+
+.e-mail{
+    padding: 0px 50px 0px 50px;
+    font-size: 25px;
+}
+.e-mail span{
+    font-weight: bold;
+} 
+.e-mail input{
+    width: 73%;
+    height: 45px;
+    font-size: 15px;
+    border: 2px solid  #000;
+    text-indent: 20px;
+    color:  #000;
+}
+.e-mail .email_button{
+    height: 51px;
+    width: 11%;
+    font-size: 20px;
+    color: #fff;
+    background-color:  #343638
+    
+}
+
+.footer-left{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 100px;
+}
+
+.footer-card{
+    width: 23%;
+    margin-right: 20px;
+
+}
+.footer-card h3, .footer-newsletter h3{
+    font-size: 22px;
+}
+
+.footer-text1, .footer-text2, .footer-text3, .footer-text4{
+    color: #9E9E9E;
+    font-size: 18px;
+}
+
+.footer-text2{
+    font-style: italic
+}
+.footer-text2 span{
+   color: #cecdcd;
+
+}
+
+.footer-newsletter{
+    width: 30%;
+}
+
+.footer-newsletter .footer-input input{
+    width: 64%;
+    height: 40px;
+    font-size: 15px;
+    border: 2px solid  #000;
+    text-indent: 20px;
+    color:  #000;   
+}
+.footer-newsletter p .email_button{
+    height: 51px;
+    width: 33%;
+    font-size: 20px;
+    color: #fff;
+    background-color:  #343638
+}
+.footer-nav{
+    float: right;
+    /* margin-bottom: 10px; */
+    margin: 0px 50px;
+    word-spacing: 10px;
+    padding: 0;
+}
+.tm-nav{
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-left: 24px;
+    margin-left: 20px;
+}
+.footer-cr{
+    color: #9E9E9E;
+    /* margin-bottom: 20px; */
+    float: left;
+    margin: 0px 50px;
+    padding: 0;
+}
